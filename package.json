@@ -1,0 +1,22 @@
+{
+  "name": "prtl",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run server:dev & bun run client:dev",
+    "client:build": "bunx vite build --config src/client/vite.config.ts",
+    "client:build:watch": "bunx vite build --watch --config src/client/vite.config.ts",
+    "client:dev": "bunx vite --config src/client/vite.config.ts",
+    "server:dev": "bun --hot run src/server/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "hono": "^4.6.19",
+    "octokit": "^4.1.0"
+  }
+}
