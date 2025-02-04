@@ -1,3 +1,3 @@
 # prtl
 
-prtl is a Pull Request Tool framework leveraging your GitOps platform with portal.
+prtl is a Pull Request Tool Leveraging your GitOps platform with portal.
